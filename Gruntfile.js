@@ -11,9 +11,9 @@ module.exports = function(grunt) {
 			},
 			dist: {
 			    // the files to concatenate
-			    src: ['src/**/*.js'],
+			    src: ['src/js/jquery-3.2.1.min.js', 'src/js/bootstrap.js','src/**/*.js'],
 			    // the location of the resulting JS file
-			    dest: 'dist/<%= pkg.name %>.js'
+			    dest: 'public/script.js'
 			}
 
 			// options: {
