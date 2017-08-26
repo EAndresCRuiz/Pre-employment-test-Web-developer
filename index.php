@@ -106,11 +106,11 @@ $groups = $patient_model->get_number_byage($patients);
     </div>
 
     <!-- scripts at the bottom! -->
-    <script src="public/js/jquery-3.2.1.min.js"></script>
+    <!--<script src="public/js/jquery-3.2.1.min.js"></script>
     <script src="public/js/bootstrap.js"></script>
-    <script src="public/js/script.js"></script>
+    <script src="public/js/script.js"></script>-->
 
     <!--  Hint: Task 5. -->
-    <!-- <script src="public/js/script.js"></script> -->
+    <script src="public/script.js"></script>
 </body>
 </html>
